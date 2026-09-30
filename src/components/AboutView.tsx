@@ -14,7 +14,6 @@ export function AboutView() {
         <p>{s.aboutP1}</p>
         <p>{s.aboutP2}</p>
         <p>{s.aboutP3}</p>
-        <p className="status">{s.aboutStatus}</p>
       </div>
     </section>
   );
