@@ -23,7 +23,7 @@ export const CARDS: PhraseCard[] = [
     polish: "Bywają wielkie zbrodnie na świecie, ale chyba największą jest zabić miłość.",
     translation: {
       en: "There are great crimes in the world, but perhaps the greatest is to kill love.",
-      uk: "Бувають великі злочини на світі, але, мабуть, найбільший — убити кохання.",
+      uk: "Бувають великі злочини на світі, але, мабуть, найбільшим із них є вбивство кохання.",
     },
   },
   {
@@ -32,7 +32,7 @@ export const CARDS: PhraseCard[] = [
     polish: "Miłość jest radością świata, słońcem życia, wesołą melodią w pustyni.",
     translation: {
       en: "Love is the joy of the world, the sun of life, a cheerful melody in the desert.",
-      uk: "Кохання — це радість світу, сонце життя, весела мелодія в пустелі.",
+      uk: "Кохання є радістю світу, сонцем життя, веселою мелодією в пустелі.",
     },
   },
   {
@@ -59,7 +59,7 @@ export const CARDS: PhraseCard[] = [
     polish: "Człowiek jest jak ćma: na oślep rwie się do ognia, choć go boli i choć się w nim spali.",
     translation: {
       en: "A person is like a moth: he rushes blindly at the fire, though it hurts him and though he will burn up in it.",
-      uk: "Людина — як нічний метелик: наосліп рветься до вогню, хоч йому болить і хоч він у ньому згорить.",
+      uk: "Людина подібна до нічного метелика, що наосліп рветься до вогню, хоч йому болить і хоч він у ньому згорить.",
     },
   },
   {
@@ -68,7 +68,7 @@ export const CARDS: PhraseCard[] = [
     polish: "I ogień jest przyjemny, szczególniej w zimie – myślała – ale... w pewnym oddaleniu.",
     translation: {
       en: "Even fire is pleasant, especially in winter, she thought, but... at a certain distance.",
-      uk: "І вогонь приємний, особливо взимку, — думала вона, — але... на певній відстані.",
+      uk: "Вона думала: «І вогонь приємний, особливо взимку, але... на певній відстані».",
     },
   },
   {
@@ -86,7 +86,7 @@ export const CARDS: PhraseCard[] = [
     polish: "Pieniądz jest osią, dookoła której obraca się dzisiejszy świat.",
     translation: {
       en: "Money is the axis around which today’s world turns.",
-      uk: "Гроші — це вісь, навколо якої обертається сучасний світ.",
+      uk: "Гроші є віссю, навколо якої обертається сучасний світ.",
     },
   },
   {
@@ -95,7 +95,7 @@ export const CARDS: PhraseCard[] = [
     polish: "Pieniądze nie stanowią wszystkiego, bo człowiek oprócz kieszeni ma jeszcze i serce...",
     translation: {
       en: "Money isn’t everything, because besides a pocket a person also has a heart...",
-      uk: "Гроші — ще не все, бо людина, крім кишені, має ще й серце...",
+      uk: "Гроші ще не все, бо людина, крім кишені, має ще й серце...",
     },
   },
   {
@@ -154,7 +154,7 @@ export const CARDS: PhraseCard[] = [
       "Wszystko głupstwo!… A wy, coście zginęli, i wy, co cierpicie, jesteście najwięksi głupcy…",
     translation: {
       en: "It’s all nonsense!… And you who perished, and you who suffer, are the greatest fools…",
-      uk: "Все дурниці!… А ви, що загинули, і ви, що страждаєте, — найбільші дурні…",
+      uk: "Все дурниці!… А ви, що загинули, і ви, що страждаєте, є найбільшими дурнями…",
     },
   },
 ];

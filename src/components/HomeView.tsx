@@ -1,11 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useLang } from "@/lib/language";
 import { STRINGS } from "@/data/strings";
 import { CARDS } from "@/data/cards";
-import shopWindow from "@/assets/shop-window.jpg";
 
 export function HomeView() {
   const [lang] = useLang();
@@ -16,12 +14,15 @@ export function HomeView() {
       <p className="kicker">{s.kicker}</p>
       <h1 className="title">Lalka</h1>
       <div className="frame">
-        <Image
-          src={shopWindow}
-          alt={s.windowAlt}
-          priority
-          placeholder="blur"
-          sizes="(max-width: 440px) 100vw, 440px"
+        <video
+          src="/videos/home-painting.mp4"
+          poster="/videos/home-painting-poster.jpg"
+          aria-label={s.windowAlt}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
         />
       </div>
       <div className="menu">
