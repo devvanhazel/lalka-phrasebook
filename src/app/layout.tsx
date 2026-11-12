@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "@fontsource/unifrakturcook/700.css";
+import { Analytics } from "@vercel/analytics/next";
 import { TopBar } from "@/components/TopBar";
 import { Footer } from "@/components/Footer";
 import "./globals.css";
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main>{children}</main>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   );
